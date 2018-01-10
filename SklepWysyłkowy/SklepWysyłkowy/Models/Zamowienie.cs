@@ -8,7 +8,7 @@ namespace SklepWysyłkowy.Models
 {
     public class Zamowienie
     {
-        public int IDZamowienie { get; set; }
+        public int IDZamowienia { get; set; }
         public int IDKlienta { get; set; }
         public int IDProduktu { get; set; }
         public DateTime DataZamowienia { get; set; }
